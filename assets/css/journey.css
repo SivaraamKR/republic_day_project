@@ -1,0 +1,189 @@
+/* ------------------------ */
+/* journey scroll */
+.container-journey{
+    top: 59%;
+    /* position: absolute; */
+    position: relative;
+    
+}
+.carrousel{
+    display: grid;
+    grid-auto-flow: column;
+    /* scroll-behavior: auto; */
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-align: x mandatory;
+    scrollbar-width: none;
+}
+
+.carrousel::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:nth-child(odd){
+    background-color: rgb(0, 153, 255);
+}
+.card:nth-child(even){
+    background-color: rgb(255, 136, 0);
+}
+
+.c1{
+    background-image: url('../images/republic-day-journey/1.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c2{
+    background-image: url('../images/republic-day-journey/2.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c3{
+    background-image: url('../images/republic-day-journey/3.avif');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c4{
+    background-image: url('../images/republic-day-journey/4.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c5{
+    background-image: url('../images/republic-day-journey/5.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c6{
+    background-image: url('../images/republic-day-journey/6.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c7{
+    background-image: url('../images/republic-day-journey/7.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c8{
+    background-image: url('../images/republic-day-journey/8.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c9{
+    background-image: url('../images/republic-day-journey/9.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c10{
+    background-image: url('../images/republic-day-journey/10.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c11{
+    background-image: url('../images/republic-day-journey/11.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c12{
+    background-image: url('../images/republic-day-journey/12.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c13{
+    background-image: url('../images/republic-day-journey/13.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c14{
+    background-image: url('../images/republic-day-journey/14.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c15{
+    background-image: url('../images/republic-day-journey/15.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c16{
+    background-image: url('../images/republic-day-journey/16.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c17{
+    background-image: url('../images/republic-day-journey/17.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c18{
+    background-image: url('../images/republic-day-journey/18.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c19{
+    background-image: url('../images/republic-day-journey/19.avif');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c20{
+    background-image: url('../images/republic-day-journey/20.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c21{
+    background-image: url('../images/republic-day-journey/21.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c22{
+    background-image: url('../images/republic-day-journey/22.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c23{
+    background-image: url('../images/republic-day-journey/23.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c24{
+    background-image: url('../images/republic-day-journey/24.jpeg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c25{
+    background-image: url('../images/republic-day-journey/25.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c26{
+    background-image: url('../images/republic-day-journey/26.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c27{
+    background-image: url('../images/republic-day-journey/27.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c28{
+    background-image: url('../images/republic-day-journey/28.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c29{
+    background-image: url('../images/republic-day-journey/29.webp');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}
+.c30{
+    background-image: url('../images/republic-day-journey/30.jpg');
+    background-size: cover;
+    box-shadow: inset -15px -15px 20px rgb(0, 0, 0) ,inset 15px 15px 20px rgba(255, 255, 255,.4);
+}

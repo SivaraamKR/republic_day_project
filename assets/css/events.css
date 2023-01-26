@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+:root{
+    --carter: 'Carter One', cursive;
+    --pacifio: 'Pacifico', cursive;
+    --cursive: 'Courgette', cursive;
+    --unboundBold: 'Unbounded', cursive;
+    --titles: 'El Messiri', sans-serif;
+}
+
+.curs{
+    font-family: var(--cursive);
+    font-size: 1.1rem;
+}
+.crd-tit{
+    font-family: var(--unboundBold);
+}
+
+body{
+    background-image: url('../images/events-images/bg-white.jpg');
+}
+
+.title_top{
+   color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.title_main{
+    font-family: var(--titles);
+    text-shadow: 3px 3px 10px black;
+}
+.sub_title{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-family: var(--carter);
+    text-shadow: 3px 3px 10px black;
+    
+    
+}
+.img-3{
+    height: 100%;
+}
+
+.title_top{
+    background-image: url('../images/freedom-fighters/orange-strip.jpg');
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:10px 10px 30px black;
+    overflow:hidden;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+.title_top img{
+    position: absolute;
+    width: 6%;
+    left: 3%;
+    top: 18%;
+    transition: .5s;
+    animation: off-on 2s infinite;
+}
+@keyframes off-on {
+    0%{transform: translateX(0px);}
+    50%{
+      
+        transform: translateX(30px);
+    }
+    100%{
+       
+
+    }
+    
+}
+.title-top img:hover{
+    transform: scale(1.2);
+}
+.card{
+    background-image: url('../images/events-images/bg-green.jpg');
+    background-size: cover;
+    box-shadow: 5px 5px 20px black;
+    
+}
